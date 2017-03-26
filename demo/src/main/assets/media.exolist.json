@@ -449,5 +449,14 @@
         ]
       }
     ]
+  },
+  {
+    "name": "NRK",
+    "samples": [
+      {
+        "name": "Dagsrevyen",
+        "uri": " http://nordond14a-f.akamaihd.net/i/wo/open/51/51c8cd4e8ce7f09c72115fb84e81872278a873d8/9bfff46e-c076-40a7-8cf4-e2dc43c991ab_,141,316,563,1266,2250,.mp4.csmil/master.m3u8"
+      }
+    ]
   }
 ]
