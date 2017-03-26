@@ -581,7 +581,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
     frameworkMediaFormat.setInteger(MediaFormat.KEY_MAX_HEIGHT, codecMaxValues.height);
     // Set the maximum input size.
     if (codecMaxValues.inputSize != Format.NO_VALUE) {
-      frameworkMediaFormat.setInteger(MediaFormat.KEY_MAX_INPUT_SIZE, codecMaxValues.inputSize);
+      frameworkMediaFormat.setInteger(MediaFormat.KEY_MAX_INPUT_SIZE, 0);
     }
     // Set FRC workaround.
     if (deviceNeedsAutoFrcWorkaround) {
